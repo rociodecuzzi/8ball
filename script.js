@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const shakeAndShowBall = () => {
       const ball = document.getElementById("8ball");
       ball.classList.add("shake");
-      ball.src = "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballAnswer.png";
+      ball.src = "img/magic8ballAnswer.png";
     };
     const fadeInAnswer = () => document.getElementById("answer").style.display = 'block';
     const setTextAnswer = (answer) => document.getElementById("answer").textContent = answer;
